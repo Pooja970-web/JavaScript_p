@@ -1,0 +1,10 @@
+let text="JavaScript is a programming language that is commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. JavaScript allows developers to create responsive user interfaces, manipulate the Document Object Model (DOM), handle events, and communicate with servers through APIs. It is an essential part of the web development stack, alongside HTML and CSS, and is supported by all modern web browsers."
+console.log(text);
+console.log(text.length); //  249
+console.log(text.toUpperCase()); // JAVASCRIPT IS A PROGRAMMING LANGUAGE THAT IS COMMONLY USED IN WEB DEVELOPMENT. IT WAS ORIGINALLY DEVELOPED BY NETSCAPE AS A MEANS TO ADD DYNAMIC AND INTERACTIVE ELEMENTS TO WEBSITES. JAVASCRIPT ALLOWS DEVELOPERS TO CREATE RESPONSIVE USER INTERFACES, MANIPULATE THE DOCUMENT OBJECT MODEL (DOM), HANDLE EVENTS, AND COMMUNICATE WITH SERVERS THROUGH APIS. IT IS AN ESSENTIAL PART OF THE WEB DEVELOPMENT STACK, ALONGSIDE HTML AND CSS, AND IS SUPPORTED BY ALL MODERN WEB BROWSERS.
+console.log(text.toLowerCase()); // javascript is a programming language that is commonly used in web development. it was originally developed by netscape as a means to add dynamic and interactive elements to websites. javascript allows developers to create responsive user interfaces, manipulate the document object model (dom), handle events, and communicate with servers through apis. it is an essential part of the web development stack, alongside html and css, and is supported by all modern web browsers.
+console.log(text.charAt(0)); // J
+console.log(text.charAt(5)); // c
+console.log(text.charAt(text.length - 1)); // s
+console.log(text.trimEnd());   // Removes spaces at the end
+console.log(text.trimStart()); // Removes spaces at the beginning
