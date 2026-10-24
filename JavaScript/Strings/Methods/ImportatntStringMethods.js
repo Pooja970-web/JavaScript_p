@@ -8,3 +8,42 @@ console.log(text.charAt(5)); // c
 console.log(text.charAt(text.length - 1)); // s
 console.log(text.trimEnd());   // Removes spaces at the end
 console.log(text.trimStart()); // Removes spaces at the beginning
+//Search in a string
+
+let text1 = "I love JavaScript";
+
+console.log(text1.includes("JavaScript")); // true
+console.log(text1.indexOf("love")); // 2
+console.log(text1.startsWith("I")); // true
+
+//Extract part of a string
+//slice(start, end)
+console.log(text1.slice(2, 6)); // love
+console.log(text1.substring(2, 6)); // love
+//substring(start, end)
+let text2 = "JavaScript";
+
+console.log(text2.substring(0, 4)); // Java
+//Replace text
+
+let text3 = "I like Java. Java is useful.";
+
+console.log(text3.replace("Java", "JavaScript"));
+// I like JavaScript. Java is useful.
+
+console.log(text3.replaceAll("Java", "JavaScript"));
+// I like JavaScript. JavaScript is useful.
+
+console.log("Hi ".repeat(3));
+// Hi Hi Hi
+let text4 = "Apple,Mango,Banana";
+
+let fruits = text4.split(",");
+
+console.log(fruits);
+// ["Apple", "Mango", "Banana"]
+
+let value = "123";
+
+console.log(Number(value)); // 123
+console.log(typeof Number(value)); // number
