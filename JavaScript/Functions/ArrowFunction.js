@@ -8,3 +8,12 @@ console.log(add(10, 20)); // 30
 const add1 = (a, b) => a + b;
 
 console.log(add1(10, 20)); // 30
+
+
+//You can give parameters default values.
+function greet(name = "Guest") {
+    console.log(`Hello, ${name}!`);
+}
+
+greet("Pooja");
+greet();
